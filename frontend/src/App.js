@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
   state = {
     response: '',
-    put: 'je suis un text',
+    put: 'je suis un texte',
     responseToPost: '',
   };
   componentDidMount() {

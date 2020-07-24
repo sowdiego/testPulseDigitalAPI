@@ -6,7 +6,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/api/test', (req, res) => {
-  res.send({ express: 'Teste pulse digital' });
+  res.send({ express: 'Test pulse digital' });
 });
 
 app.put ('/api/test1', (req, res) => { 
